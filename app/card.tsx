@@ -86,6 +86,7 @@ const CardComponent: React.FC<CardComponentProps> = ({ user, onDelete }) => {
             variant={`${showStar ? "outline" : "primary"}`}
             style={{ marginRight: "8px" }}
             onClick={handleClick}>
+            {/*Show the variant and icon of button based on showStar flag */}
             {showStar ? (
               <span>
                 <IconUserMinus
